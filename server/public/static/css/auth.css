@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- https://meyerweb.com/eric/tools/css/reset/ ---------- */
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:200,300,400,700');
+/* @import url('href="https://fonts.googleapis.com/css?family=Baloo:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); */
+
+
+/* ---------- FONTAWESOME ---------- */
+
+/* [class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+} */
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #ffffff;
+	color: #5a5656;
+	font: 100%/1.5em 'Raleway', sans-serif;;
+	/* font-family: 'Raleway', sans-serif; */
+    margin: 0;
+}
+
+a { text-decoration: none; }
+
+/* h1 { font-size: 1em; } */
+
+h1, p {
+	margin-bottom: 10px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+
+#login {
+	margin: 50px auto;
+	width: 300px;
+}
+
+form fieldset input[type="text"], input[type="password"], select {
+	background: #e5e5e5;
+	/* border: none; */
+	border: 1px dashed black;
+	border-radius: 3px;
+	color: #000000;
+	font-family: inherit;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 0px 10px;
+	width: 300px;
+  -webkit-appearance:none;
+}
+
+form fieldset button[type="submit"] {
+	background-color: #000000;
+	border: none;
+	border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: inherit;
+	height: 50px;
+	text-transform: uppercase;
+	width: 300px;
+  -webkit-appearance:none;
+}
+
+form fieldset a {
+	color: #5a5656;
+	font-size: 10px;
+}
+
+form fieldset a:hover { text-decoration: underline; }
+
+.btn-round {
+	background: #5a5656;
+	border-radius: 50%;
+	border: 1px dashed #ffffff;
+	color: #f4f4f4;
+	display: block;
+	font-size: 12px;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 125px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50px;
+}
+
+.facebook-before {
+	background: #fbdf12;
+	border-radius: 3px 0px 0px 3px;
+	color: #f4f4f4;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+.facebook-before-icon{
+	color: #000 !important;
+}
+.facebook {
+	background: #000000;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 250px;
+}
+
+.google-before {
+	background: #fbdf12;
+	border-radius: 3px 0px 0px 3px;
+	color: #f4f4f4;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+.google-before-icon {
+	color: #000 !important;
+}
+
+.google {
+	background: #000000;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 250px;
+}
+
+
+/*
+Grid border
+*/
+
+.grid-style {
+	border: 2px solid aliceblue !important;
+}
+
+.rule-auth-button {
+	border: 1px dashed black;
+}

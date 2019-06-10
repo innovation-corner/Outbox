@@ -1,0 +1,41 @@
+::selection {
+  background-color:#fbdf12;
+  /* color: #fff; */
+  color: #000019;
+}
+::-moz-selection {
+  background-color:#fbdf12;
+  color: #000034;
+}
+
+
+a, 
+.theme-color,
+.mm-column li.mm-header > a,
+.mm-column li:not(.mm-header) a:hover {
+  color:#fbdf12;
+}
+
+.theme-before:before,
+.theme-after:after,
+.btn-theme,
+.theme-bg,
+.theme-hover:hover,
+.fixed-header .header-nav a.btn {
+  /* background: #0a1992; */
+  background: #fbdf12;
+}
+
+.theme-bg-faq{
+  background: white;
+}
+.theme-hover:hover {
+  border-color: #fbdf12;
+}
+
+
+@media(max-width: 991px){
+	.header-nav a.btn {
+		background: #fbdf12;		
+	}
+}
