@@ -34,3 +34,102 @@
     text-decoration: underline;
     line-height: 22px;
 }
+
+/**NAV STYLING **/
+#kt_header #kt_header_menu .kt-menu__nav .kt-menu__item.logo {
+    background-color: unset !important;
+    border-right: 1px solid #DEDEDF;
+}
+
+#kt_aside_menu .kt-menu__nav {
+    margin-top: 40px !important;
+}
+
+#kt_aside_menu .kt-menu__nav .kt-menu__item  {
+    padding: 30px !important;
+}
+
+#kt_aside_menu .kt-menu__nav .kt-menu__item .kt-menu__link-icon {
+    color: #191B3F !important;
+}
+
+#kt_aside_menu .kt-menu__nav .kt-menu__item .kt-menu__link-icon.active {
+    color: white !important;
+}
+
+#kt_aside_menu .kt-menu__nav .kt-menu__item.active  {
+    background-color: #7540EE !important;
+    color: white !important;
+}
+
+.kt-aside__brand-logo .kt-menu__link-icon {
+    color: #191B3F !important;
+}
+
+.kt-aside__brand.kt-grid__item {
+    border-bottom: 1px solid #DEDEDF;
+    border-right: 1px solid #DEDEDF;
+}
+
+.kt-aside.kt-aside--fixed {
+    border-right: 1px solid #DEDEDF !important;
+}
+
+.kt-header.kt-grid.kt-grid--ver.kt-header--fixed {
+    border-bottom: 1px solid #DEDEDF !important;
+}
+
+/**CONTENT STYLE**/
+.kt-content .kt-subheader__main h2 {
+    color: #191B3F;
+    font-weight: 600;
+}
+
+.kt-content #kt_subheader  {
+    border-bottom: 1px solid #DEDEDF !important;
+    padding: 20px !important;
+}
+
+#container {
+    padding: 30px;
+}
+
+#container .row.first .col {
+    border: 1px solid #DEDEDF !important;
+    padding: 20px;
+    font-size: 16px;
+    color: #191B3F;
+}
+
+#container .row.first .col.active {
+    background-color: #7540EE;
+    color: white;
+}
+
+#container h4 {
+    color: #191B3F;
+    font-weight: 600;
+}
+
+#container .row.room .room-col {
+    border: 1px solid #DEDEDF !important;
+    border-radius: 5px;
+}
+
+#container .background {
+    background-image: url('../images/login-background.jpg');
+    /* background-attachment: fixed; */
+    height: 200px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#container .background-content {
+    padding: 20px;
+}
+
+#container .background-content p {
+    font-weight: 600;
+    font-size: 15px;
+    color: #191B3F;
+}
