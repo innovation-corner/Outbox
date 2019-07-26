@@ -29,46 +29,47 @@
                     <div class="kt-grid__item  kt-grid__item--order-tablet-and-mobile-2  kt-grid kt-grid--hor kt-login__aside">
                         <div class="kt-login__wrapper">
                             <div class="kt-login__container">
-                                <div class="kt-login__body">
+                                <div class="kt-signup__body">
                                     <div class="logo-head">
                                         <a href="#"><img src="../assets/media/company-logos/logo-2.png"></a>
                                     </div>
-
-                                    <div class="kt-login__signin">
+                                    <div class="kt-login__">
                                         <div class="form-header">
-                                            <h3 class="">Hello!</h3>
-                                            <p>Sign in with your credentials, <br/>or create a new one</p>
+                                            <h3>Sign Up</h3>
+                                            <div>Enter your details to create your account:</div>
                                         </div>
                                         <div class="form-body">
                                             <form action="">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="email" placeholder="Email address" name="email" autocomplete="off">
+                                                    <input class="form-control" type="text" placeholder="Fullname" name="fullname">
                                                 </div>
                                                 <div class="form-group">
-                                                    <input class="form-control form-control-last" type="password" placeholder="Password" name="password">
+                                                    <input class="form-control" type="text" placeholder="Email" name="email" autocomplete="off">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="password" placeholder="Password" name="password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control form-control-last" type="password" placeholder="Confirm Password" name="rpassword">
                                                 </div>
                                                 <div class="kt-login__extra">
-                                                    <button class="btn btn-brand">Login</button>                       
-                                                    <a href="javascript:;" class="forgot-password">Forget Password ?</a>
+                                                    <label class="kt-checkbox">
+                                                        <input type="checkbox" name="agree"> I Agree the <a href="#">terms and conditions</a>.
+                                                        <span></span>
+                                                    </label>
+                                                </div>
+                                                <div style="margin-top: 20px;">
+                                                    <button id="kt_login_signup_submit" class="btn btn-brand signup">Sign Up</button>
+                                                    <button id="kt_login_signup_cancel" class="btn btn-outline-brand cancel">Cancel</button>
                                                 </div>
                                             </form>
-                                            <div style="margin-top: 40px;">
-                                                <span>
-                                                    Don't have an account yet ?
-                                                </span>&nbsp;&nbsp;
-                                                <a href="javascript:;" id="kt_login_signup" class="kt-login__account-link">Create one</a>
-                                            </div>
                                         </div>
-                                    </div>
-
-                                    <div class="kt-login__signup">
-                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="kt-grid__item kt-grid__item--fluid kt-grid__item--center kt-grid kt-grid--ver kt-login__content" style="background-image: url(../assets/images/login-background.jpg);">
+                    <div class="kt-grid__item kt-grid__item--fluid kt-grid__item--center kt-grid kt-grid--ver kt-login__content" style="background-image: url(../assets/images/signup-background.jpg);">
                         <div class="signin-content-block">  
                             <h3>No more meeting hassles, book your meeting rooms with ease.</h3>
                         </div>

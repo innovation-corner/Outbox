@@ -112,20 +112,46 @@
 }
 
 #container .row.room .room-col {
-    border: 1px solid #DEDEDF !important;
-    border-radius: 5px;
+    /* border: 1px solid #DEDEDF !important;
+    border-radius: 5px; */
+}
+
+#container .row.room img {
+    height: 100%;
+    width: 100%;
 }
 
 #container .background {
     background-image: url('../images/login-background.jpg');
-    /* background-attachment: fixed; */
     height: 200px;
     background-size: cover;
     object-fit: cover;
 }
 
 #container .background-content {
-    padding: 20px;
+    padding: 10px;
+}
+
+#container .background-content .icon-link {
+    padding: 5px;
+    border-radius: 30%;
+    border: 1px solid #ccc;
+    color: #ccc;
+    font-size: 12px;
+}
+
+#container .background-content .user-link {
+    color: #ccc;
+    font-size: 12px;
+}
+
+#container .background-content button {
+    border: 1px solid #7540EE;
+}
+
+#container .background-content button:hover {
+    background-color: #7540EE;
+    color: white;
 }
 
 #container .background-content p {
@@ -133,3 +159,50 @@
     font-size: 15px;
     color: #191B3F;
 }
+
+#container .upcoming-booking-sec {
+    padding: 10px;
+}
+
+#container .upcoming-booking-sec .heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#container .upcoming-booking-sec .card {
+    padding: 20px;
+}
+
+#container .upcoming-booking-sec p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: #191B3F;
+}
+
+/* login style **/
+.kt-login__container button {
+    background-color: #7540EE;
+    color: white;
+    border: 0;
+}
+
+.kt-login__container button:hover {
+    background-color: white;
+    color: #7540EE;
+    border: 1px solid #7540EE;
+}
+
+/* signup styles **/
+.kt-signup__body .signup {
+    background-color: #7540EE;
+    color: white;
+    border: 0;
+}
+
+.kt-signup__body .cancel {
+    background-color: white;
+    color: #7540EE;
+    border: 1px solid #7540EE;
+}
+
